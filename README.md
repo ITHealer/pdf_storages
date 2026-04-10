@@ -1,3 +1,4 @@
+```
 pdf_storage/
 ├── app/
 │   ├── main.py           ← FastAPI app, lifespan, global error handler
@@ -9,3 +10,4 @@ pdf_storage/
 ├── tests/test_upload.py  ← 9 integration tests
 ├── storage/              ← PDF lưu ở đây
 └── requirements.txt
+```
