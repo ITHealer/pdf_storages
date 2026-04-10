@@ -1,0 +1,17 @@
+[project]
+name = "storage"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiofiles==24.1.0",
+    "fastapi==0.115.6",
+    "httpx==0.28.1",
+    "pydantic==2.10.4",
+    "pydantic-settings==2.7.0",
+    "pytest==8.3.4",
+    "pytest-asyncio==0.25.0",
+    "python-multipart==0.0.20",
+    "uvicorn[standard]==0.32.1",
+]

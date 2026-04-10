@@ -1,0 +1,9 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+python-multipart==0.0.20    # bắt buộc để nhận UploadFile
+aiofiles==24.1.0            # async file I/O — không block
+pydantic==2.10.4
+pydantic-settings==2.7.0    # đọc .env vào Settings class
+httpx==0.28.1               # test client cho FastAPI
+pytest==8.3.4
+pytest-asyncio==0.25.0
